@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{%extends 'blog/base.html'%}
+{%block title %}URL and 404{%endblock%}
+
+{%block content%}
+
+<h1>Get object and URL patter fuck </h1>
+
+{% for pos in post %}
+   <p>{{pos.title}}</p>
+{% endfor %}
+{{obj.title}}
+{%endblock%}

@@ -1,0 +1,23 @@
+.content{
+  float:left;
+  width: 60%;
+  padding:0 0 0 30px;
+}
+.sidebar{
+  float:right;
+  width:30%;
+  padding:10px;
+  background: silver;
+  height: 100%;
+}
+h1{
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+  padding: 0 0 10px 0;
+}
+#date{
+
+ color: burlywood;
+  font-size:12px;
+  font-style: italic;
+}
